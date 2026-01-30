@@ -1,4 +1,0 @@
-read_verilog -sv -formal -overwrite {workspace}/counter1000.v
-read_verilog -sv -formal -overwrite {workspace}/clock12hr.v
-design -reset-vlog; proc;
-write_json {workspace}/netlist/top_module.json
